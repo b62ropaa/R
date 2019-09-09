@@ -1,0 +1,6 @@
+print("Introduzca el cateto1")
+cat1<-scan(n=1)
+print("Introduzca el cateto 2")
+cat2<-scan(n=1)
+hip<-sqrt(cat1^2+cat2^2)
+cat("La hipotenusa del triangulo de cateto 1=",cat1,"y cateto 2=",cat2,"es",hip)
